@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Futbol</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            text-align: center;
+            background-color: #333;
+            color: white;
+            padding: 10px;
+        }
+
+        article {
+            margin-top: 20px;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        p {
+            line-height: 1.5;
+            color: #555;
+        }
+
+        ol {
+            margin-bottom: 10px;
+        }
+
+        /* Estilos del formulario */
+        form {
+            margin-top: 20px;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            width: 300px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 10px;
+            color: blue; /* Color de texto de etiquetas azul */
+        }
+
+        input, select {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Futbol</h1>
+    </header>
+
+    <article>
+        <h2>Links de interes </h2>
+        <p><a href="https://www.fifa.com/fifaplus/es/">Ir a pagina de Fifa</a></p>
+        <p><a href="https://fmf.mx/">Ir a pagina de Femexfut</a></p>
+    </article>
+
+    <article>
+        <h2>Notas importantes</h2>
+        <p>Lista de jugadores mejores pagados:</p>
+        <ol>
+            <li><strong>Cristiano Ronaldo:</strong> 260 millones de dolares.</li>
+            <li><strong>Lionel Messi:</strong> 125 millones de dolares.</li>
+            <li><strong>Neymar Jr:</strong> 112 millones de dolares.</li>
+            <li><strong>Kyllian Mbappe:</strong> 110 millones de dolares.</li>
+            <li><strong>Karim Benzema :</strong> 106 millones de dolares.</li>
+            <li><strong>Erling Haaland:</strong> 58 millones de dolares.</li>
+            <li><strong>Mohamed Salah:</strong> 53 millones de dolares.</li>
+            <li><strong>Sadio Mane:</strong> 52 millones de dolares.</li>
+            <li><strong>Kevin De Bruyne:</strong> 39 millones de dolares.</li>
+            <li><strong>Harry Kane:</strong> 36 millones de dolares.</li>
+        </ol>
+    </article>
+
+    <article>
+        <h2>Equipos más ricos</h2>
+        <p>Los equipos de fútbol manejan cantidades bastante altas de dinero.</p>
+        <p>A continuación una tabla con los mayores exponentes en cuanto a poder monetario se refiere:</p>
+        <table>
+            <thead>
+                <tr>
+                    <th>Equipo</th>
+                    <th>Valor</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1. Manchester City</td>
+                    <td>794.5 millones de dolares </td>
+                </tr>
+                <tr>
+                    <td>2. Real Madrid</td>
+                    <td>775.8 millones de dólares</td>
+                </tr>
+                <tr>
+                    <td>3. Liverpool</td>
+                    <td>762.6 millones de dólares</td>
+                </tr>
+                <tr>
+                    <td>4. Manchester United</td>
+                    <td>748.4 millones de dólares</td>
+                </tr>
+                <tr>
+                    <td>5. Paris Saint-Germain</td>
+                    <td>711.03 millones de dólares</td>
+                </tr>
+            </tbody>
+        </table>
+    </article>
+
+    <div>
+        <h2>Imágenes relacionadas</h2>
+        <img src="futbol.jpg" alt="" style="width:100%">
+        <img src="estadio.jpg" alt="" style="width:100%">
+    </div>
+
+    <!-- Formulario de contacto -->
+    <form>
+        <h2>Contacto</h2>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" value="Ejemplo" required>
+
+        <label for="edad">Edad:</label>
+        <input type="number" id="edad" name="edad" value="25" required>
+
+        <label for="sexo">Sexo:</label>
+        <select id="sexo" name="sexo" required>
+            <option value="masculino">Masculino</option>
+            <option value="femenino">Femenino</option>
+        </select>
+
+        <label for="email">Correo electrónico:</label>
+        <input type="email" id="email" name="email" value="ejemplo@dominio.com" required>
+
+        <label for="readonlyField">Campo de solo lectura:</label>
+        <input type="text" id="readonlyField" name="readonlyField" value="Valor de solo lectura" readonly>
+
+        <button type="submit">Aceptar</button>
+        <button type="reset">Reset</button>
+    </form>
+
+</body>
+</html>
